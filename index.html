@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <title>
+
+    Affan' Shop</title>
+  <link rel="icon" href="cart-fill.svg" type="image/x-icon">
+
+</head>
+
+<body>
+
+  <nav class=" nav1 navbar navbar-expand-lg navbar-dark ">
+    <a class="navbar-brand" href="index.html">Shop</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="Products.html">Products</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="Conatact US.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0 " type="submit">Search</button>
+
+      </form>
+      <div class="mx-2">
+        <button class="btn btn-outline-light ml-2 my-2 my-sm-0" data-toggle="modal"
+          data-target="#loginModal">Login</button>
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit" data-toggle="modal"
+          data-target="#signupModal">Sign Up</button>
+      </div>
+  </nav>
+
+  <!-- Login  Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title fs-5" id="exampleModalLabel">Login</h3>
+          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+        </div>
+        </fieldset>
+        <div class="row mb-3">
+
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Login</button>
+
+        </form>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  </div>
+
+
+
+  <!--Sign Up Modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title fs-5" id="exampleModalLabel">Sign Up</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+              </div>
+            </div>
+
+            <div class="row mt-3 mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <div class="col-sm-10 offset-sm-2">
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+
+              </div>
+            </div>
+        </div>
+
+        </form>
+      </div>
+     
+    </div>
+  </div>
+  </div>
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="top2.jpg" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+
+          <button type="button" class="btn btn-warning">High Quality</button>
+          <button type="button" class="btn btn-success">Reasonable Price</button>
+          <button type="button" class="btn btn-danger">Instant Delivery</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="top3.jpg" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+
+          <button type="button" class="btn btn-warning">High Quality</button>
+          <button type="button" class="btn btn-success">Reasonable Price</button>
+          <button type="button" class="btn btn-secondary">Instant Delivery</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+
+        <img class="d-block w-100" src="top4.jpg" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block">
+
+          <button type="button" class="btn btn-warning">High Quality</button>
+          <button type="button" class="btn btn-success">easonable Price</button>
+          <button type="button" class="btn btn-secondary">Instant Delivery</button>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+
+    </a>
+
+  </div>
+  
+  
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Hi</strong> You should sign up to stay in touch with us.
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+</div>
+
+  <div class="card-group mt-5 ml-3 mr-3">
+
+    <div class="card mr-2">
+      <img src="quran 5.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Quran Pak</h5>
+        <button type="button" class="btn btn-primary">Products</button>
+      </div>
+      <div class="card-footer">
+
+      </div>
+    </div>
+    <div class="card mr-2">
+      <img src="pen 4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pen Quran </h5>
+        <button type="button" class="btn btn-primary">Products</button>
+      </div>
+      <div class="card-footer">
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="caps.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Caps</h5>
+        <button type="button" class="btn btn-primary">Products</button>
+      </div>
+      <div class="card-footer">
+
+      </div>
+    </div>
+  </div>
+  <div class="more">
+    <a href="Products.html"> <button type="button" class="btn btn-primary mt-3 ml-5">More Products</button></a>
+  </div>
+
+ <div id="btns">
+  <div class="btn-group mt-5 ml-5 mr-5" role="group" aria-label="Basic outlined example">
+    <button type="button " class="btn btn-outline-primary mr-1"><i class="bi bi-chat-fill"></i> <br>
+      Instant Reply</button>
+    <button type="button" class="btn btn-outline-primary mr-1"><i class="bi bi-check2-square"></i> <br> Quality
+      Product</button>
+    <button type="button" class="btn btn-outline-primary mr-1"> <i class="bi bi-truck"></i> <br> Fast Delivery</button>
+  </div>
+</div>
+ 
+  <div class="foot">
+    <div class="link ml-5 mb-5">
+      <h2>Connect with us</h2>
+      <div class="icon">
+        <a href="https://www.facebook.com/" target="_blank"> <i class="bi bi-facebook ml-5 mr-2" style="font-size: 30px"></i></a>
+        <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-instagram mr-2" style="font-size: 30px"></i></a>
+        <a href="mailto:affanshahid246@gmail.com" target="_blank"><i class="bi bi-envelope-at" style="font-size: 30px"></i></a>
+      </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
